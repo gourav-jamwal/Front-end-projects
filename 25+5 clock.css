@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(100, 1, 200);
+}
+#container {
+  display: flex;
+  flex: center;
+  border: 1px solid white;
+  padding: 10em;
+  border-radius: 1em;
+  top: -14em;
+  position: relative;
+  left: 250%;
+}
+#Layer {
+  margin: 10em;
+  width: 10em;
+  display: flex;
+  flex-direction: column;
+}
+#text {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: -10em;
+  left: 100%;
+  width: 40em;
+  color: rgb(10, 0, 200);
+
+  font-family: sans-serif;
+}
+#break-label {
+  text-shadow: 0px 0px 0.5em yellow, -4px -1px rgb(10, 0, 150);
+}
+#session-label {
+  position: relative;
+  left: 50%;
+  text-shadow: 0px 0px 0.5em yellow, 4px -1px rgb(10, 0, 150);
+}
+.breakButton {
+  display: flex;
+  width: 6em;
+  height: 4em;
+  border-radius: 10px;
+}
+#breakB {
+  position: absolute;
+  padding: 5em;
+}
+.sessionButton {
+  width: 6em;
+  height: 4em;
+  border-radius: 10px;
+}
+#sessionB {
+  position: absolute;
+  padding: 5em;
+  left: 87%;
+}
+@fa-font-path: "../font";
+#buttonText {
+  position: relative;
+  top: 0.5em;
+}
+.NumberText {
+  text-align: center;
+  color: rgb(10, 20, 100);
+  text-shadow: 1px 1px 1px rgb(10, 200, 200);
+  background-color: white;
+  border-radius: 1em;
+}
+#timer-label {
+  position: relative;
+  left: 15.2em;
+  top: -4em;
+  color: white;
+  text-align: center;
+}
+#time-left {
+  position: relative;
+  color: white;
+  text-align: center;
+  left: -11em;
+  top: -1em;
+}
+#timer-border {
+  position: relative;
+  border: 2px solid rgb(10, 10, 200);
+  width: 20em;
+  top: -2em;
+  left: -10em;
+  display: flex;
+  padding-left: 8em;
+  padding-right: 11.7em;
+}
+#start_stop {
+  position: relative;
+  top: -17em;
+
+  right: -21.7em;
+  width: 4em;
+  background-color: rgb(100, 1, 200);
+  color: white;
+  text-shadow: 0px 0px 0.5em white;
+  font-size: 1.5em;
+}
+#OnOffT {
+  position: relative;
+  left: 0.1em;
+}
+#reset {
+  position: relative;
+  top: -15em;
+
+  right: -21.7em;
+  width: 4em;
+  background-color: rgb(100, 1, 200);
+  color: white;
+  text-shadow: 0px 0px 0.5em white;
+  font-size: 1.5em;
+}
